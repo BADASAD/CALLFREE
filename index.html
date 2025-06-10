@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>God V Call App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>God V WebRTC Call</h1>
+    <input id="my-id" placeholder="Your permanent ID" />
+    <input id="peer-id" placeholder="Receiver ID to call" />
+    <button onclick="startVoiceCall()">Voice Call</button>
+    <button onclick="startVideoCall()">Video Call</button>
+  </div>
+  <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
